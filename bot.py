@@ -8,7 +8,7 @@ import os
 TOKEN = os.getenv("TELEGRAM_TOKEN", "7815618712:AAETEhnXEKSI88nrc1iYYyOcYKvqWe_TP6g")
 
 # --- Сообщение, которое бот будет отправлять ---
-REPLY_TEXT = "Здравствуйте, чтобы и приобрести христианские ресурсы пишите сюда 👉 @Godskidss"
+REPLY_TEXT = "Здравствуйте, чтобы приобрести христианские ресурсы пишите сюда 👉 @Godskidss"
 
 # --- Функция-обработчик всех сообщений ---
 async def reply_any(update: Update, context: ContextTypes.DEFAULT_TYPE):
